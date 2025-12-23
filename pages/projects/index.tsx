@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import { getProjects, Project } from '@/lib/projects'
+import { getProjects } from '@/lib/projects'
+import type { Project } from '@/lib/projects'
 import ProjectCard from '@/components/ProjectCard'
 
 interface ProjectsPageProps {

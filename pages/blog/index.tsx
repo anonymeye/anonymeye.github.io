@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import { getSortedPosts, BlogPost } from '@/lib/posts'
+import { getSortedPosts } from '@/lib/posts'
+import type { BlogPost } from '@/lib/posts'
 import BlogCard from '@/components/BlogCard'
 
 interface BlogPageProps {
