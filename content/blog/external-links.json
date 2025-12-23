@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Interesting Article About AI",
+    "date": "2024-01-15",
+    "excerpt": "A fascinating read about the future of AI engineering",
+    "externalUrl": "https://example.com/article"
+  },
+  {
+    "title": "Backend Architecture Patterns",
+    "date": "2024-01-10",
+    "excerpt": "Great insights into scalable backend design",
+    "externalUrl": "https://example.com/backend-patterns"
+  }
+]
+
