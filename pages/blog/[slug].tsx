@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import { getAllPostSlugs, getPostBySlug, BlogPost } from '@/lib/posts'
+import { getAllPostSlugs, getPostBySlug } from '@/lib/posts'
+import type { BlogPost } from '@/lib/posts'
 import { remark } from 'remark'
 import html from 'remark-html'
 
