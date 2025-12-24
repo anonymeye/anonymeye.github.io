@@ -1,20 +1,11 @@
 [
   {
-    "title": "Clojure Library",
-    "description": "A library I built in Clojure. Add more details about what it does and how it works.",
-    "technologies": ["Clojure", "Java"],
-    "githubUrl": "https://github.com/yourusername/your-repo",
+    "title": "Conduit",
+    "description": "A Clojure library that provides a unified, functional interface to LLM providers. Unlike framework-heavy approaches, Conduit embraces Clojure's philosophy: data-first, functions over frameworks, explicit over implicit.",
+    "technologies": ["Clojure", "Java", "LLM", "AI"],
+    "githubUrl": "https://github.com/anonymeye/conduit",
     "category": "Library",
-    "date": "2023-01-15"
-  },
-  {
-    "title": "React Native App",
-    "description": "A mobile application built with React Native. Describe the features and purpose.",
-    "technologies": ["React Native", "JavaScript", "iOS", "Android"],
-    "githubUrl": "https://github.com/yourusername/your-repo",
-    "liveUrl": "https://example.com",
-    "category": "Mobile",
-    "date": "2023-03-20"
+    "date": "2025-12-24"
   }
 ]
 
