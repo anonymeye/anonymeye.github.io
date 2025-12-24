@@ -13,15 +13,6 @@ export default function Home() {
     'AI/ML',
   ]
 
-  const companies = [
-    {
-      name: 'Company Name',
-      role: 'iOS Engineer',
-      period: '2020 - Present',
-      description: 'Worked on mobile applications using Swift and React Native.',
-    },
-    // Add more companies as needed
-  ]
 
   return (
     <>
@@ -90,31 +81,38 @@ export default function Home() {
         </section>
 
         {/* Experience Section */}
-        {companies.length > 0 && (
-          <section className="section">
-            <h2 className="section-title">Experience</h2>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-              {companies.map((company, index) => (
-                <div
-                  key={index}
-                  style={{
-                    padding: '1.5rem',
-                    backgroundColor: 'var(--bg-secondary)',
-                    border: '1px solid var(--border-color)',
-                    borderRadius: '8px',
-                  }}
-                >
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '0.5rem', flexWrap: 'wrap' }}>
-                    <h3 style={{ fontSize: '1.25rem', color: 'var(--text-primary)' }}>{company.name}</h3>
-                    <span style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>{company.period}</span>
-                  </div>
-                  <p style={{ color: 'var(--accent)', marginBottom: '0.5rem', fontSize: '1rem' }}>{company.role}</p>
-                  <p style={{ color: 'var(--text-secondary)' }}>{company.description}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
+        <section className="section">
+          <h2 className="section-title">Experience</h2>
+          <div
+            style={{
+              padding: '1.5rem',
+              backgroundColor: 'var(--bg-secondary)',
+              border: '1px solid var(--border-color)',
+              borderRadius: '8px',
+            }}
+          >
+            <h3 style={{ fontSize: '1.25rem', color: 'var(--text-primary)', marginBottom: '1rem' }}>
+              iOS Software Engineer
+            </h3>
+            <p style={{ color: 'var(--text-secondary)', marginBottom: '1rem', fontSize: '1.1rem' }}>
+              I've worked as an iOS Software Engineer across different company sizes, from startups to mid-size companies to large enterprises.
+            </p>
+            <p style={{ color: 'var(--text-secondary)', marginBottom: '1rem', fontSize: '1.1rem' }}>
+              My experience spans multiple industries including <strong>retail</strong>, <strong>hospitality</strong>, <strong>fintech</strong>, and <strong>energy</strong>. 
+            </p>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>
+              For more details about my work experience, please visit my{' '}
+              <a 
+                href="https://www.linkedin.com/in/abderrahmane-abourkia/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{ color: 'var(--accent)', textDecoration: 'underline' }}
+              >
+                LinkedIn profile
+              </a>.
+            </p>
+          </div>
+        </section>
 
         {/* Contact Section */}
         <section className="section">
@@ -126,10 +124,10 @@ export default function Home() {
             <a href="mailto:your.email@example.com" className="btn">
               Email Me
             </a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+            <a href="https://github.com/anonymeye" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
               GitHub
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+            <a href="https://www.linkedin.com/in/abderrahmane-abourkia/" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
               LinkedIn
             </a>
           </div>
