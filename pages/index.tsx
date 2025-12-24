@@ -26,8 +26,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfolio | iOS & Full-Stack Engineer</title>
-        <meta name="description" content="Portfolio of an iOS engineer transitioning to backend and AI engineering" />
+        <title>Portfolio | Abdel - iOS & Full-Stack Engineer</title>
+        <meta name="description" content="Portfolio of Abdel - iOS and Full-Stack Engineer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -37,11 +37,10 @@ export default function Home() {
         <section className="section" style={{ paddingTop: '4rem' }}>
           <h1 style={{ fontSize: '3rem', fontWeight: 700, marginBottom: '1rem', lineHeight: 1.2 }}>
             Hi, I'm{' '}
-            <span style={{ color: 'var(--accent)' }}>Your Name</span>
+            <span style={{ color: 'var(--accent)' }}>Abdel</span>
           </h1>
           <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', marginBottom: '2rem', maxWidth: '600px' }}>
-            iOS Engineer transitioning to Backend & AI Engineering. 
-            Passionate about building scalable systems and exploring the intersection of mobile and AI.
+            iOS & Full-Stack Engineer passionate about mobile development, backend systems, and AI technologies.
           </p>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <Link href="/projects" className="btn">
@@ -59,12 +58,11 @@ export default function Home() {
           <div style={{ maxWidth: '700px' }}>
             <p style={{ color: 'var(--text-secondary)', marginBottom: '1rem', fontSize: '1.1rem' }}>
               I'm a mobile engineer with experience in iOS development, React Native, and various backend technologies. 
-              Currently, I'm expanding my expertise into backend systems and AI engineering, aiming to become a full-stack engineer 
-              capable of building end-to-end solutions.
+              I'm passionate about building scalable systems, exploring AI technologies, and creating end-to-end solutions.
             </p>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>
               I've worked with Clojure and ClojureScript, built libraries, and enjoy exploring new technologies. 
-              This portfolio showcases my projects, thoughts, and learnings as I transition into backend and AI engineering.
+              This portfolio showcases my projects and work across mobile, backend, and AI domains.
             </p>
           </div>
         </section>

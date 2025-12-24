@@ -19,8 +19,7 @@ export default function Blog({ posts }: BlogPageProps) {
         <section className="section" style={{ paddingTop: '4rem' }}>
           <h1 className="section-title">Blog</h1>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem', fontSize: '1.1rem' }}>
-            Thoughts, learnings, and interesting articles I've come across on my journey 
-            from mobile to backend and AI engineering.
+            Articles and resources I find interesting and worth sharing.
           </p>
 
           {posts.length === 0 ? (
