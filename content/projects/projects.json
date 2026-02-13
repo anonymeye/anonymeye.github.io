@@ -1,5 +1,13 @@
 [
   {
+    "title": "Apex",
+    "description": "An open-source platform for building, configuring, and evaluating AI chat agents over your own knowledge base and tools. Multi-tenant auth, RAG, tool calling, and LLM judge evaluation—FastAPI backend, Next.js portal, Conduit for orchestration.",
+    "technologies": ["Python", "FastAPI", "Next.js", "TypeScript", "PostgreSQL", "Redis", "Docker", "LLM", "AI"],
+    "githubUrl": "https://github.com/anonymeye/apex-platform",
+    "category": "Platform",
+    "date": "2026-02-13"
+  },
+  {
     "title": "Ripplex",
     "description": "A re-frame inspired state management library for TypeScript that brings event-driven architecture, powerful abstractions, and full type safety to modern TypeScript applications.",
     "technologies": ["TypeScript", "State Management", "React", "re-frame"],
