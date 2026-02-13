@@ -1,5 +1,13 @@
 [
   {
+    "title": "Ripplex",
+    "description": "A re-frame inspired state management library for TypeScript that brings event-driven architecture, powerful abstractions, and full type safety to modern TypeScript applications.",
+    "technologies": ["TypeScript", "State Management", "React", "re-frame"],
+    "githubUrl": "https://github.com/anonymeye/ripplex",
+    "category": "Library",
+    "date": "2025-12-31"
+  },
+  {
     "title": "Conduit",
     "description": "A Clojure library that provides a unified, functional interface to LLM providers. Unlike framework-heavy approaches, Conduit embraces Clojure's philosophy: data-first, functions over frameworks, explicit over implicit.",
     "technologies": ["Clojure", "Java", "LLM", "AI"],
@@ -8,4 +16,3 @@
     "date": "2025-12-24"
   }
 ]
-
